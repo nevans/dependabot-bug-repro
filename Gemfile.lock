@@ -1,7 +1,7 @@
 PATH
   remote: vendor/net-imap
   specs:
-    net-imap (0.3.3)
+    net-imap (0.9.0)
       date
       net-protocol
 
@@ -78,7 +78,7 @@ GEM
     multipart-post (2.2.3)
     net-protocol (0.2.1)
       timeout
-    nokogiri (1.14.0)
+    nokogiri (1.14.1)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     public_suffix (5.0.1)
