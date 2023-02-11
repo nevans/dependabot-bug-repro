@@ -1,7 +1,7 @@
 PATH
   remote: vendor/net-imap
   specs:
-    net-imap (0.3.3)
+    net-imap (0.9.0)
       date
       net-protocol
 
@@ -44,7 +44,7 @@ GEM
     equalizer (0.0.11)
     ethon (0.16.0)
       ffi (>= 1.15.0)
-    excon (0.95.0)
+    excon (0.99.0)
     faraday (0.17.6)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.14.0)
