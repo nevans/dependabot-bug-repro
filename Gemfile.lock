@@ -1,0 +1,102 @@
+PATH
+  remote: vendor/net-imap
+  specs:
+    net-imap (0.3.3)
+      date
+      net-protocol
+
+PATH
+  remote: vendor/private_gems/couchrb
+  specs:
+    couchrb (0.9.0)
+      activesupport (> 3.2.0)
+      addressable (> 2.5)
+      deep_dup
+      equalizer
+      faraday (> 0.15.0, < 2.0.0)
+      faraday_middleware (> 0.13.0)
+      ice_nine
+      typhoeus (> 1.1)
+
+PATH
+  remote: vendor/private_gems/fouu_bar_baaz-utils
+  specs:
+    fouu_bar_baaz-utils (0.1.0)
+      dry-initializer
+      fog-aws
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.1.7.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
+    builder (3.2.4)
+    concurrent-ruby (1.2.0)
+    date (3.3.3)
+    deep_dup (0.0.3)
+    dry-initializer (3.1.1)
+    equalizer (0.0.11)
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    excon (0.95.0)
+    faraday (0.17.6)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.14.0)
+      faraday (>= 0.7.4, < 1.0)
+    ffi (1.15.5)
+    fog-aws (3.15.0)
+      fog-core (~> 2.1)
+      fog-json (~> 1.1)
+      fog-xml (~> 0.1)
+    fog-core (2.3.0)
+      builder
+      excon (~> 0.71)
+      formatador (>= 0.2, < 2.0)
+      mime-types
+    fog-json (1.2.0)
+      fog-core
+      multi_json (~> 1.10)
+    fog-xml (0.1.4)
+      fog-core
+      nokogiri (>= 1.5.11, < 2.0.0)
+    formatador (1.1.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    ice_nine (0.11.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    mini_portile2 (2.8.1)
+    minitest (5.17.0)
+    multi_json (1.15.0)
+    multipart-post (2.2.3)
+    net-protocol (0.2.1)
+      timeout
+    nokogiri (1.14.0)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    public_suffix (5.0.1)
+    racc (1.6.2)
+    timeout (0.3.1)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+    zeitwerk (2.6.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  couchrb!
+  fouu_bar_baaz-utils!
+  net-imap!
+
+BUNDLED WITH
+   2.3.26

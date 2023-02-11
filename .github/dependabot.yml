@@ -1,0 +1,32 @@
+---
+version: 2
+updates:
+
+  - package-ecosystem: "bundler"
+    open-pull-requests-limit: 15
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    versioning-strategy: lockfile-only
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+    commit-message:
+      prefix:             "⬆️  bundle"
+      prefix-development: "⬆️  bundle dev"
+      include: "scope"
+
+  - package-ecosystem: "bundler"
+    target-branch: "slim"
+    open-pull-requests-limit: 5
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    versioning-strategy: lockfile-only
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+    commit-message:
+      prefix:             "⬆️  bundle"
+      prefix-development: "⬆️  bundle dev"
+      include: "scope"
