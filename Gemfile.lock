@@ -1,7 +1,7 @@
 PATH
   remote: vendor/net-imap
   specs:
-    net-imap (0.3.3)
+    net-imap (0.9.0)
       date
       net-protocol
 
@@ -86,7 +86,7 @@ GEM
     timeout (0.3.1)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (2.0.5)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     zeitwerk (2.6.6)
 
