@@ -78,7 +78,7 @@ GEM
     multipart-post (2.2.3)
     net-protocol (0.2.1)
       timeout
-    nokogiri (1.14.0)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     public_suffix (5.0.1)
